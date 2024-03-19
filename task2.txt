@@ -1,2 +1,6 @@
-Write a blog about objects and its internal representation in Javascript
- 
+Write a blog about objects and its internal representation in Javascript?
+
+object is a collection of properties. And those properties are association with pair of key and values.
+Objects are pretty much useful to define your data in frontend programming.
+ It is used to store various keyed collections and more complex entities.
+ internal representaion: var car = {Make: “Mercedes”, Model: “C-Class”, Color: “White”, Fuel: Diesel, Weight: “850kg”, Mileage: “8Kmpl”, Rating: 4.5};
