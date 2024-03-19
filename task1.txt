@@ -1,1 +1,11 @@
 Write a blog on Difference between HTTP1.1 vs HTTP2
+
+ HTTP/1.1 transfer all the requests and responses in the  text message form.
+ HTTP2 transfer all the request and responses in the binary format.
+ HTTP/2 was developed over the SPeeDY protocol 
+ HTTP/1.1 compress the data itself.
+ HTTP2 compress the data by using HPACK.
+ HTTP/1.1 it uses requests resource Inlining for use getting multiple pages.
+ HTTP2 The server sends all the other files using PUSH frame without the request of the client.
+ HTTP1.1 is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+ HTTP2 allow multiplexing. so we can use one tcp connection is required for multiple request
